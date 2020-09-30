@@ -10,8 +10,21 @@ module.exports = {
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
     siteTitleAlt: `SensiPeeps - Portfolio`,
+    siteDescription: `Wanderers and Tinkerers of code!`,
+    //siteImage: `/banner.jpg`,
+    author: `@austinhornhead_12`
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `montserrat`,
+          `source sans pro\:300,400,400i,700`
+        ],
+        display: 'swap'
+      }
+    },
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
       // See the theme's README for all available options
