@@ -11,7 +11,7 @@ module.exports = {
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
     siteTitleAlt: `SensiPeeps - Portfolio`,
     siteDescription: `Wanderers and Tinkerers of code!`,
-    //siteImage: `/banner.jpg`,
+    siteImage: `/banner.jpg`,
     author: `@austinhornhead_12`
   },
   plugins: [
