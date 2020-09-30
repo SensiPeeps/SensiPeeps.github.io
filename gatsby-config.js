@@ -13,9 +13,7 @@ module.exports = {
     siteTitleAlt: `SensiPeeps - Portfolio`,
     siteDescription: `Wanderers and Tinkerers of code!`,
     siteHeadline: `SensiPeeps - Wanderers and Tinkerers of code!`,
-    // Will be used to generate absolute URLs for og:image etc.
     siteUrl: `https://sensipeeps.github.io`,
-    // Will be set on the <html /> tag
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
     author: `@austinhornhead_12`
@@ -34,7 +32,9 @@ module.exports = {
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
       // See the theme's README for all available options
-      options: {},
+      options: {
+        basePath: `/`
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
