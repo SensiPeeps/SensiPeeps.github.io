@@ -9,8 +9,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
+    siteTitle: `SensiPeeps`,
     siteTitleAlt: `SensiPeeps - Portfolio`,
     siteDescription: `Wanderers and Tinkerers of code!`,
+    siteHeadline: `SensiPeeps - Wanderers and Tinkerers of code!`,
+    // Will be used to generate absolute URLs for og:image etc.
+    siteUrl: `https://sensipeeps.github.io`,
+    // Will be set on the <html /> tag
+    siteLanguage: `en`,
     siteImage: `/banner.jpg`,
     author: `@austinhornhead_12`
   },
